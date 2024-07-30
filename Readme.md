@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Артем Соболев](https://up.htmlacademy.ru/adaptive-individual/2/user/2518753).
-* Наставник: `Неизвестно`.
+* Наставник: [Ярослав Шевцов](https://up.htmlacademy.ru/adaptive-individual/2/check/tasks/2518753/6).
 
 ---
 
