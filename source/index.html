@@ -11,16 +11,19 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo" href="../source/index.html">
-      <img class="main-header_logo-image" src="images\logo-desktop-header.svg" width="202" height="59" alt="Магазин CAT ENERGY">
+    <a class="main-header-logo-pic" href="../source/index.html">
+      <img class="main-header_logo-pic" src="images/logo-pic.svg" width="60" height="50" alt="Логотип магазина CAT ENERGY">
+    </a>
+    <a class="main-header-logo-text" href="../source/index.html">
+      <img class="main-header_logo-text" src="images/logo-text.svg" width="101" height="18" alt="Логотип магазина CAT ENERGY">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__site-list">
-          <li class="site-list__item site-list__item--active"><a href="index.html">Главная</a></li>
-          <li class="site-list__item"><a href="catalog.html">Каталог продукции</a></li>
-          <li class="site-list__item"><a href="#">Подбор программы</a></li>
+          <li class="main-nav__site-list__item main-nav__site-list__item--active"><a href="index.html">Главная</a></li>
+          <li class="main-nav__site-list__item"><a href="catalog.html">Каталог продукции</a></li>
+          <li class="main-nav__site-list__item"><a href="#">Подбор программы</a></li>
         </ul>
       </div>
     </nav>
@@ -57,7 +60,7 @@
         <h3 class="advantages__title">Как это работает</h3>
         <ul class="advantages__list">
           <li class="advantages__item">
-            <p class="advantages-text">Функциональное питание содержит только полезные питательные вещества. </p>
+            <p class="advantages-text">Функциональное питание содержит только полезные питательные вещества.</p>
           </li>
           <li class="advantages__item">
             <p class="advantages-text">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
@@ -74,19 +77,51 @@
     <section class="examples">
       <div class="examples__wrapper">
         <h2 class="examples__tittle">Живой пример</h2>
-        <div class="examples-container">
+        <div class="examples__container">
           <p class="examples-text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
-          <p class="examples-container-options">5 КГ</p>
-          <!-- <p>снижение веса</p>?????? проверить этот блок-->
-          <p class="examples-container-options">60 ДНЕЙ</p>
-
+          <label for="examples__container__options">снижение веса</label>
+          <span class="examples__container__options">5 КГ</span>
+          <!-- как реализовать  данный элемент? через лебел или псевдоэлементом (через абсолютное позиционирование) -->
+          <label for="examples__container__options" style="border: 1px solid black;">затрачено времени
+            <span class="examples__container__options">60 ДНЕЙ</span></label>
+          <!-- 15000 через больщой отступ, может это span (там проходят вычисления?) или просто два тега P сделать -->
           <p>затраты на питание:15000 РУБ.</p>
         </div>
       </div>
 
     </section>
+    <section class="map">
+      <div class="map__wrapper">
+        <h4 class="map__tittle">приглашаем к сотрудничеству дилеров!</h4>
+        <div class="map__adress">
+          <p>ул. Большая Конюшенная, д. 19/8</p>
+          <p>Санкт-Петербург</p>
+        </div>
+        <a class="main-header-logo-pic" href="../source/index.html">
+          <img class="main-header_logo-pic" src="images/logo-pic.svg" width="60" height="50" alt="Логотип магазина CAT ENERGY">
+        </a>
+      </div>
 
+    </section>
   </main>
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
+      <a class="main-header-logo-text" href="../source/index.html">
+        <img class="main-header_logo-text" src="images/logo-text.svg" width="101" height="18" alt="Логотип магазина CAT ENERGY">
+      </a>
+      <ul class="social-list">
+        <li class="social-list__social-item visually-hidden">vk</li>
+        <li class="social-list__social-item visually-hidden">yt</li>
+        <li class="social-list__social-item visually-hidden">tg</li>
+      </ul>
+      <div class="logo-academy">
+        <p>HTML Academy</p>
+        <a href="#">
+          <img class="logo-academy__logo" src="images/logo-html-academy.svg" width="27" height="34" alt="Логотип HTML-академии"></a>
+      </div>
+    </div>
+
+  </footer>
 
 </body>
 
