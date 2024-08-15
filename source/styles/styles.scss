@@ -1,26 +1,7 @@
-// COMMON
-@import "common/variables";
-@import "common/mixins";
-@import "common/fonts";
-@import "common/global";
-@import "common/visually-hidden";
+/* GLOBAL */
+@import "./common/variables.scss";
+@import "./common/global.scss";
+@import "./common/fonts.scss";
 
-// BLOCKS
-@import "./blocks/page";
-@import "./blocks/main-header";
-@import "./blocks/main-header-logo-pic";
-@import "./blocks/main-nav";
-@import "./blocks/main-container";
-@import "./blocks/hero";
-@import "./blocks/programs";
-@import "./blocks/advantages";
-@import "./blocks/examples";
-@import "./blocks/map";
-@import "./blocks/main-footer";
-@import "./blocks/social-list";
-@import "./blocks/catalog";
-@import "./blocks/additional-products";
-@import "./blocks/present";
-@import "./blocks/subscription-form";
-@import "./blocks/button";
-
+/* BLOCKS */
+@import "./blocks/header.scss";
