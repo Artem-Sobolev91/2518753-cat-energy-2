@@ -1,7 +1,13 @@
+.advantages {
+  width: 280px;
+  min-height: 380px;
+  padding: 0 20px;
+}
+
 .advantages__title {
   font-family: $oswald;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 36px;
+  line-height: 40px;
   color: $base-color-text-black;
   font-weight: 400;
 }
@@ -9,6 +15,64 @@
 .advantages__list {
   list-style: none;
   font-family: $lato;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
 }
+
+.advantages__item {
+  width: 280px;
+  min-height: 60px;
+  position: relative;
+}
+
+.advantages__item--benefit::after {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url("../../icons/stack.svg#index-leaf");
+  position: absolute;
+  left: -56px;
+  top: 15px;
+}
+
+.advantages__item--water::after {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url("../../icons/stack.svg#index-water");
+  position: absolute;
+  left: -56px;
+  top: 15px;
+}
+
+.advantages__item--instructions::after {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url("../../icons/stack.svg#index-eat");
+  position: absolute;
+  left: -56px;
+  top: 15px;
+}
+
+.advantages__item--index-watch::after {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url("../../icons/stack.svg#index-watch");
+  position: absolute;
+  left: -56px;
+  top: 15px;
+}
+
+
+.advantages__item::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: $button-background;
+  position: absolute;
+  left: -73px;
+  display: block;
+}
+
