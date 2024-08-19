@@ -35,3 +35,21 @@
   line-height: 20px;
   color: $base-color-text-black;
 }
+
+.examples__picture {
+  position: relative;
+}
+
+.examples__picture::before {
+  content: "";
+  width: 4px;
+  height: 256px;
+  background-color: #666666;
+  position: absolute;
+}
+
+.examples__thumb {
+  position: absolute;
+  top: 128px;
+  left: -10px;
+}
