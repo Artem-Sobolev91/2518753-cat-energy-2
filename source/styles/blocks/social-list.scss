@@ -1,0 +1,15 @@
+.social-list {
+  list-style: none;
+  width: 132px;
+  min-height: 22px;
+  display: grid;
+  grid-template-columns: repeat(3, 22px);
+  gap: 24px;
+  margin: 0;
+}
+
+.social-list__item a {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
