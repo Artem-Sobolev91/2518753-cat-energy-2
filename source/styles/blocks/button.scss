@@ -6,10 +6,17 @@
   text-transform: uppercase;
   text-decoration: none;
   color: $button-color-text;
-  background-color: $button-background;
 }
 
 .button--grey {
   background-color: #f2f2f2;
   color: #444444;
+}
+
+.main-nav__burger {
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  background-color: $button-background-white;
 }
