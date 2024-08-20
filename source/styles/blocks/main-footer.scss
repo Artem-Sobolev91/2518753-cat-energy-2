@@ -3,3 +3,34 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.main-footer__logo-text:hover {
+  opacity: 0.8;
+}
+
+.main-footer__logo-text:active {
+  opacity: 0.6;
+}
+
+
+.social-list__link {
+  fill: #666666;
+}
+
+.social-list__link:hover {
+  fill: #68b738;
+}
+
+.main-footer__logo-academy-svg {
+  fill: #666666;
+  color: $base-color-text;
+  text-decoration: none;
+}
+
+.main-footer__logo-academy-svg:hover {
+  fill: #68b738;
+}
+
+.main-footer__logo-academy-svg:active {
+  opacity: 0.3;
+}

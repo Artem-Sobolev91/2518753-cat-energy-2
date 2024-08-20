@@ -48,8 +48,14 @@
   position: absolute;
 }
 
+.examples__picture::before:hover {
+  background-color: #68b738;
+}
+
 .examples__thumb {
   position: absolute;
-  top: 128px;
+  top: 100px;
   left: -10px;
+    fill: #ffffff;
 }
+
