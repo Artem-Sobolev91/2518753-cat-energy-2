@@ -47,33 +47,18 @@
   outline: none;
 }
 
-// .examples__button-thumb::before {
-//   content: "";
-//   background-color: #ffffff;
-//   width: 40px;
-//   height: 40px;
-//   border: 2px solid #666666;
-//   border-radius: 50%;
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%);
-// }
-
-// .examples__thumb {
-//   position: absolute;
-//   top: 55%;
-//   left: 50%;
-//   transform: translate(-50%);
-// }
-
 .examples__button-thumb:hover {
   background-color: #68b738;
 }
 
+.examples__button-thumb:active {
+  background-color: #68b738;
+  opacity: 0.6;
+}
+
 .examples__thumb {
   stroke: #666666;
-  fill: #666666;
+  color: #666666;
   position: absolute;
   top: 104px;
   left: -18px;
@@ -81,5 +66,11 @@
 
 .examples__thumb:hover {
   stroke: #68b738;
-  fill: #68b738;
+  color: #68b738;
+}
+
+.examples__thumb:active {
+  stroke: #68b738;
+  color: #68b738;
+  opacity: 0.6;
 }
