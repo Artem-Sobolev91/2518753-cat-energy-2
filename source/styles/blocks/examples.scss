@@ -36,26 +36,50 @@
   color: $base-color-text-black;
 }
 
-.examples__picture {
-  position: relative;
-}
-
-.examples__picture::before {
-  content: "";
+.examples__button-thumb {
   width: 4px;
   height: 256px;
   background-color: #666666;
-  position: absolute;
+  border: none;
+  border-radius: 2px;
+  padding: 0;
+  position: relative;
+  outline: none;
 }
 
-.examples__picture::before:hover {
+// .examples__button-thumb::before {
+//   content: "";
+//   background-color: #ffffff;
+//   width: 40px;
+//   height: 40px;
+//   border: 2px solid #666666;
+//   border-radius: 50%;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%);
+// }
+
+// .examples__thumb {
+//   position: absolute;
+//   top: 55%;
+//   left: 50%;
+//   transform: translate(-50%);
+// }
+
+.examples__button-thumb:hover {
   background-color: #68b738;
 }
 
 .examples__thumb {
+  stroke: #666666;
+  fill: #666666;
   position: absolute;
-  top: 100px;
-  left: -10px;
-    fill: #ffffff;
+  top: 104px;
+  left: -18px;
 }
 
+.examples__thumb:hover {
+  stroke: #68b738;
+  fill: #68b738;
+}
