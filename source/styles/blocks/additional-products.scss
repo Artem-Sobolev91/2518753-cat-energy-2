@@ -1,21 +1,29 @@
-.additional-products h3 {
-  font-family: $oswald;
-  font-size: 40px;
-  line-height: 40px;
-  color: $base-color-text-black;
-  font-weight: 400;
+.additional-products {
+  font-size: 14px;
+  line-height: 14px;
 }
 
-.additional-products__title {
+.additional-products h3 {
   font-family: $oswald;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $base-color-text-black;
+}
+
+.additional-products__list {
+  list-style: none;
+}
+
+.additional-products__tittle {
+  font-family: $oswald;
+  font-size: 16px;
+  line-height: 16px;
   color: #222222;
+  text-transform: uppercase;
 }
 
 .additional-products__units,
 .additional-products__price {
   font-family: $lato;
-  font-size: 16px;
-  line-height: 20px;
 }

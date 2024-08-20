@@ -8,14 +8,22 @@
 
 .catalog__list {
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+  margin: 0;
 }
 
+.catalog__product-card {
+  min-height: 207px;
+}
 // .catalog__product-card:not(:last-child) {
 //   background-color: #f2f2f2;
 // }
 
 .catalog__product-card-title {
   font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .catalog__product-card-link {
@@ -27,6 +35,28 @@
 
 .catalog__table {
   font-family: $lato;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.catalog__product-card-parameter {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.catalog__container-addition {
+  width: 219px;
+  min-height: 97px;
+  padding-top: 53px;
+  position: relative;
+}
+
+.catalog__container-addition::before {
+  content: "";
+  background-image: url("../../icons/stack.svg#catalog-plus");
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 109.5px;
 }

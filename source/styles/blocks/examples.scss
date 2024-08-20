@@ -1,37 +1,37 @@
-.examples__container {
-  background-color: #f2f2f2;
+.examples {
+  background-color: #eaeaea;
 }
 
 .examples__title {
   font-family: $oswald;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 36px;
+  line-height: 40px;
   color: $base-color-text-black;
   font-weight: 400;
 }
 
 .examples__text {
   font-family: $lato;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .examples__container-options {
   font-family: $oswald;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 24px;
+  line-height: 24px;
   color: $base-color-text-black;
 }
 
 .examples__container-label {
   font-family: $lato;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 12px;
 }
 
 .examples__expenses {
   font-family: $oswald;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 20px;
   color: $base-color-text-black;
 }

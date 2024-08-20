@@ -23,7 +23,14 @@
       </picture>
     </a>
     <nav class="main-nav">
-      <button type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <button class="main-nav__burger" type="button"><span class="visually-hidden">Открыть меню</span>
+        <svg class="main-nav__burger--icon" viewBox="0 0 24 24" width="24" height="24">
+          <use href="..\icons\stack.svg#burger"></use>
+        </svg>
+        <svg class="main-nav__burger--icon" viewBox="0 0 24 24" width="24" height="24">
+          <use href="..\icons\stack.svg#cross"></use>
+        </svg>
+      </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__site-list">
           <li class="main-nav__item main-nav__item--active">
@@ -218,10 +225,14 @@
             </table>
             <a class="button" href="#">заказать</a>
           </li>
-          <li class="catalog__product-card">
+          <li class="catalog__product-card catalog__product-card--addition">
             <!-- крестик либо фон на контейнер -->
-            <h3 class="catalog__product-card-title">Показать еще 100500 товаров</h3>
-            <p class="catalog__product-card-parameter">На самом деле вкусов гораздо больше!</p>
+            <div class="catalog__container-addition">
+              <a class="catalog__product-card-link" href="product.html">
+                <h3 class="catalog__product-card-title">Показать еще 100500 товаров</h3>
+              </a>
+              <p class="catalog__product-card-parameter">На самом деле вкусов гораздо больше!</p>
+            </div>
             <a class="button button--grey" href="#">показать все</a>
           </li>
         </ul>
@@ -233,7 +244,7 @@
         <h3 class="additional-products__tittle">Дополнитльные товары</h3>
         <ul class="additional-products__list">
           <li class="additional-products__list-item">
-            <p class="additional-products__tittle">Сахарозаменитель</p>
+            <p class="additional-products__tittle">cахарозаменитель</p>
             <p class="additional-products__units">1 упаковка (100 г)</p>
             <span class="additional-products__price">200 ₽</span>
             <a class="button" href="#">заказать</a>
@@ -290,22 +301,31 @@
 
   <footer class="main-footer">
     <div class="main-footer__wrapper">
-      <a class="main-footer__ogo-text" href="../source/index.html">
-        <img class="main-footer_logo-text" src="images/logo-cat-energy.svg" width="101" height="18" alt="Логотип магазина CAT ENERGY">
+      <a class="main-footer__logo-text" href="../source/index.html">
+        <img class="main-footer__logo-image" src="images/logo-cat-energy.svg" width="101" height="18" alt="Логотип магазина CAT ENERGY">
       </a>
       <ul class="social-list">
         <li class="social-list__item">
           <a href="https://vk.com/htmlacademy">
             <span class="visually-hidden">В контакте</span>
+            <svg viewBox="0 0 24 24" width="24" height="24">
+              <use href="..\icons\stack.svg#vkontakte"></use>
+            </svg>
           </a>
         </li>
         <li class="social-list__item">
           <a href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Ютуб</span>
+            <svg viewBox="0 0 24 24" width="24" height="24">
+              <use href="..\icons\stack.svg#youtube"></use>
+            </svg>
           </a>
         </li>
         <li class="social-list__item">
           <a href="https://t.me/htmlacademy">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+              <use href="..\icons\stack.svg#telegram"></use>
+            </svg>
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
