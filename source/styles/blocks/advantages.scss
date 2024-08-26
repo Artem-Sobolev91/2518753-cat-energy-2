@@ -1,4 +1,6 @@
-.advantages {
+
+
+.advantages__wrapper {
   width: 280px;
   min-height: 380px;
   padding: 0 20px;
@@ -10,6 +12,8 @@
   line-height: 40px;
   color: $base-color-text-black;
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .advantages__list {
@@ -17,6 +21,24 @@
   font-family: $lato;
   font-size: 14px;
   line-height: 18px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__list {
+    list-style: none;
+    font-family: $lato;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 230px 230px;
+    gap: 37px 137px;
+  }
 }
 
 .advantages__item {
@@ -25,13 +47,37 @@
   position: relative;
 }
 
+@media (min-width: $tablet-width) {
+  .advantages__item {
+    width: 230px;
+    min-height: 280px;
+    position: relative;
+  }
+}
+
+.advantages__text {
+  width: 200px;
+  padding-left: 80px;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__text {
+    width: 204px;
+    padding-right: 26px;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 151px;
+  }
+}
+
 .advantages__item--benefit::after {
   content: "";
   width: 32px;
   height: 32px;
   background-image: url("../../icons/stack.svg#index-leaf");
   position: absolute;
-  left: -56px;
+  left: 15px;
   top: 15px;
 }
 
@@ -41,7 +87,7 @@
   height: 32px;
   background-image: url("../../icons/stack.svg#index-water");
   position: absolute;
-  left: -56px;
+  left: 15px;
   top: 15px;
 }
 
@@ -51,7 +97,7 @@
   height: 32px;
   background-image: url("../../icons/stack.svg#index-eat");
   position: absolute;
-  left: -56px;
+  left: 15px;
   top: 15px;
 }
 
@@ -61,7 +107,7 @@
   height: 32px;
   background-image: url("../../icons/stack.svg#index-watch");
   position: absolute;
-  left: -56px;
+  left: 15px;
   top: 15px;
 }
 
@@ -72,7 +118,7 @@
   height: 60px;
   background-color: $button-background;
   position: absolute;
-  left: -73px;
+  left: 0;
   display: block;
 }
 
