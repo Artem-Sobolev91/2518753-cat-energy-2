@@ -1,9 +1,26 @@
+.advantages {
+  width: 320px;
+}
 
+@media (min-width: $tablet-width) {
+  .advantages {
+    width: 768px;
+  }
+}
 
 .advantages__wrapper {
   width: 280px;
   min-height: 380px;
   padding: 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__wrapper {
+    width: auto;
+    min-height: 380px;
+    padding-left: 30px;
+    padding-right: 109px;
+  }
 }
 
 .advantages__title {
@@ -49,7 +66,7 @@
 
 @media (min-width: $tablet-width) {
   .advantages__item {
-    width: 230px;
+    width: auto;
     min-height: 280px;
     position: relative;
   }
