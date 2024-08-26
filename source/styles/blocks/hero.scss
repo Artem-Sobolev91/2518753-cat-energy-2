@@ -13,6 +13,11 @@
     padding-left: 30px;
     padding-right: 29px;
   }
+
+  .hero__button-container {
+    position: absolute;
+    top: 300px;
+  }
 }
 
 @media (min-width: $desktop-width) {
