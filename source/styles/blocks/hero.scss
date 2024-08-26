@@ -3,10 +3,47 @@
   font-size: 14px;
   line-height: 14px;
   color: $base-color-text-black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .hero {
+    padding-left: 30px;
+    padding-right: 29px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hero {
+    padding-left: 110px;
+    padding-right: 0;
+  }
+
+  .hero__wrapper {
+    display: flex;
+  }
+
+  .hero__container-lead {
+    position: relative;
+  }
+
+  .hero__button-container {
+    position: absolute;
+    top: 300px;
+  }
+}
+
 
 .hero__lead {
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.hero__tagline {
+  text-align: center;
 }

@@ -1,0 +1,17 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 21px 14px 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-header {
+    padding: 25px 34px 0 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-header {
+    padding: 55px 110px 29px;
+  }
+}

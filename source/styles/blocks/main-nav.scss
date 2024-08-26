@@ -8,6 +8,18 @@
 
 .main-nav__site-list {
   list-style: none;
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__site-list {
+    list-style: none;
+    display: flex;
+  }
+
+  .main-nav__burger {
+    display: none;
+  }
 }
 
 .main-nav__link {
