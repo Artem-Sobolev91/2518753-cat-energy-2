@@ -1,5 +1,50 @@
 .map {
   font-weight: 400;
+  margin: 0;
+  width: $mobile-width-only;
+}
+
+.map__wrapper {
+  padding: 1px;
+}
+
+@media (min-width: $tablet-width) {
+  .map {
+    font-weight: 400;
+    margin: 0;
+    width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map {
+    font-weight: 400;
+    margin: 0;
+    width: $desktop-width;
+  }
+}
+
+
+.map__container {
+  padding: 26px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: $tablet-width) {
+  .map__container {
+    padding: 60px 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map__container {
+    padding: 60px 78px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .map__title {
