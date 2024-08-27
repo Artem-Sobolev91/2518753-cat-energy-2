@@ -1,16 +1,21 @@
 .advantages {
   width: 320px;
+  margin-bottom: 49px;
 }
 
 @media (min-width: $tablet-width) {
   .advantages {
-    width: 768px;
+    width: $tablet-width;
   }
 }
 
 @media (min-width: $desktop-width) {
   .advantages {
-    width: 1220px;
+    width: $desktop-width;
+    min-height: 380px;
+    padding-left: 30px;
+    padding-right: 109px;
+    box-sizing: border-box;
   }
 }
 
@@ -31,10 +36,12 @@
 
 @media (min-width: $desktop-width) {
   .advantages__wrapper {
-    width: 1220px;
+    width: $desktop-width;
     min-height: 280px;
     padding-left: 110px;
     padding-right: 109px;
+    box-sizing: border-box;
+    display: inline;
   }
 }
 
@@ -76,16 +83,15 @@
 
 @media (min-width: $desktop-width) {
   .advantages__list {
-    width: 1220;
     list-style: none;
     font-family: $lato;
     font-size: 14px;
     line-height: 18px;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
-    gap: 77px 0;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -125,10 +131,8 @@
 @media (min-width: $desktop-width) {
   .advantages__text {
     width: 246px;
-    padding-right: 26px;
+    padding: 151px 22px 57px 0;
     margin: 0;
-    padding-left: 0;
-    padding-top: 151px;
     min-height: 280px;
     box-sizing: border-box;
   }
