@@ -12,6 +12,26 @@
 }
 
 @media (min-width: $tablet-width) {
+  .main-nav {
+    font-family: $oswald;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $base-color-text-black;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    font-family: $oswald;
+    font-size: 20px;
+    line-height: 29.64px;
+    text-transform: uppercase;
+    color: $base-color-text-black;
+  }
+}
+
+@media (min-width: $tablet-width) {
   .main-nav__site-list {
     list-style: none;
     display: flex;

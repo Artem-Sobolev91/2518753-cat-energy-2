@@ -9,8 +9,8 @@
 @media (min-width: $tablet-width) {
   .hero {
     font-family: $oswald;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 20px;
+    line-height: 20px;
     color: $base-color-text-black;
     width: $tablet-width;
   }
@@ -20,6 +20,8 @@
   .hero {
     color: $base-color-text-black;
     font-family: $oswald;
+    font-size: 20px;
+    line-height: 20px;
     width: $desktop-width;
   }
 }
@@ -60,7 +62,7 @@
 
   .hero__button-container {
     position: absolute;
-    top: 300px;
+    top: 390px;
     left: 180px;
   }
 }
@@ -75,4 +77,24 @@
 
 .hero__tagline {
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .hero__lead {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hero__lead {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 0;
+  }
 }
