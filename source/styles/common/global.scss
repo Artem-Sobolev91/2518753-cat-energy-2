@@ -5,6 +5,7 @@ body {
   font-weight: 400;
   background-color: #ffffff;
   width: $mobile-width-only;
+  margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
