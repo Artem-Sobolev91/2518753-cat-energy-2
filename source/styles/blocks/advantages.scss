@@ -1,5 +1,5 @@
 .advantages {
-  width: 320px;
+  width: $mobile-width-only;
   margin-bottom: 49px;
 }
 
@@ -13,21 +13,18 @@
   .advantages {
     width: $desktop-width;
     min-height: 380px;
-    padding-left: 30px;
-    padding-right: 109px;
-    box-sizing: border-box;
   }
 }
 
 .advantages__wrapper {
-  width: 280px;
+  box-sizing: border-box;
   min-height: 380px;
   padding: 0 20px;
 }
 
 @media (min-width: $tablet-width) {
   .advantages__wrapper {
-    width: auto;
+    box-sizing: border-box;
     min-height: 380px;
     padding-left: 30px;
     padding-right: 109px;
@@ -36,12 +33,10 @@
 
 @media (min-width: $desktop-width) {
   .advantages__wrapper {
-    width: $desktop-width;
     min-height: 280px;
     padding-left: 110px;
     padding-right: 109px;
     box-sizing: border-box;
-    display: inline;
   }
 }
 

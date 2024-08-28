@@ -4,4 +4,17 @@ body {
   color: $base-color-text;
   font-weight: 400;
   background-color: #ffffff;
+  width: $mobile-width-only;
+}
+
+@media (min-width: $tablet-width) {
+  body {
+    width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  body {
+    width: $desktop-width;
+  }
 }

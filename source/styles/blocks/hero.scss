@@ -3,6 +3,25 @@
   font-size: 14px;
   line-height: 14px;
   color: $base-color-text-black;
+  width: $mobile-width-only;
+}
+
+@media (min-width: $tablet-width) {
+  .hero {
+    font-family: $oswald;
+    font-size: 14px;
+    line-height: 14px;
+    color: $base-color-text-black;
+    width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hero {
+    color: $base-color-text-black;
+    font-family: $oswald;
+    width: $desktop-width;
+  }
 }
 
 .hero__wrapper {
@@ -12,11 +31,22 @@
 }
 
 @media (min-width: $tablet-width) {
-  .hero {
+  .hero__wrapper {
     padding-left: 30px;
-    padding-right: 29px;
+    padding-right: 30px;
+    padding-bottom: 0;
   }
+}
 
+@media (min-width: $desktop-width) {
+  .hero__wrapper {
+    padding-left: 110px;
+    padding-right: 331px;
+    display: flex;
+  }
+}
+
+@media (min-width: $tablet-width) {
   .hero__button-container {
     position: absolute;
     top: 300px;
@@ -24,15 +54,6 @@
 }
 
 @media (min-width: $desktop-width) {
-  .hero {
-    padding-left: 110px;
-    padding-right: 0;
-  }
-
-  .hero__wrapper {
-    display: flex;
-  }
-
   .hero__container-lead {
     position: relative;
   }
@@ -43,7 +64,6 @@
     left: 180px;
   }
 }
-
 
 .hero__lead {
   font-weight: 400;
