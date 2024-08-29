@@ -2,47 +2,38 @@
   font-weight: 400;
   margin: 0;
   width: $mobile-width-only;
-}
 
-.map__wrapper {
-  padding: 0;
-}
-
-@media (min-width: $tablet-width) {
-  .map {
+  @media (min-width: $tablet-width) {
     font-weight: 400;
     margin: 0;
     width: $tablet-width;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .map {
+  @media (min-width: $desktop-width) {
     font-weight: 400;
     margin: 0;
     width: $desktop-width;
   }
 }
 
+.map__wrapper {
+  padding: 0;
+}
 
 .map__container {
   padding: 26px 20px;
   display: flex;
   justify-content: space-between;
-}
 
-@media (min-width: $tablet-width) {
-  .map__container {
+  @media (min-width: $tablet-width) {
     width: 565px;
     box-sizing: border-box;
     padding: 60px 80px;
     display: flex;
     justify-content: space-between;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .map__container {
+  @media (min-width: $desktop-width) {
     padding: 60px 78px;
     display: flex;
     justify-content: space-between;

@@ -3,16 +3,15 @@
   min-height: 290px;
   background-color: rgba(104, 183, 56, 0.85);
   position: relative;
-}
 
-@media (min-width: $tablet-width) {
-  .present {
+  @media (min-width: $tablet-width) {
     width: 707px;
     min-height: 290px;
     background-color: rgba(104, 183, 56, 0.85);
     position: relative;
   }
 }
+
 
 .present::before {
   content: "";

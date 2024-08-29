@@ -3,16 +3,12 @@
   font-size: 16px;
   line-height: 20px;
   width: $mobile-width-only;
-}
 
-@media (min-width: $tablet-width) {
-  .main-footer {
+  @media (min-width: $tablet-width) {
     width: $tablet-width;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .main-footer {
+  @media (min-width: $desktop-width) {
     width: $desktop-width;
   }
 }
@@ -20,19 +16,15 @@
 .main-footer__wrapper {
   padding: 40px 20px;
   text-align: center;
-}
 
-@media (min-width: $tablet-width) {
-  .main-footer__wrapper {
+  @media (min-width: $tablet-width) {
     padding: 55px 30px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .main-footer__wrapper {
+  @media (min-width: $desktop-width) {
     padding: 66px 110px;
     display: flex;
     justify-content: space-between;
