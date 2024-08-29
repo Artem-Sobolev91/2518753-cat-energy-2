@@ -1,7 +1,13 @@
 .map {
   font-weight: 400;
   margin: 0;
-  width: $mobile-width-only;
+  width: 100%;
+}
+
+.map__wrapper {
+  padding: 0;
+  margin: 0 auto;
+
 
   @media (min-width: $tablet-width) {
     width: $tablet-width;
@@ -12,10 +18,6 @@
   }
 }
 
-.map__wrapper {
-  padding: 0;
-}
-
 .map__container {
   padding: 26px 20px;
   display: flex;
@@ -23,7 +25,6 @@
 
   @media (min-width: $tablet-width) {
     width: 565px;
-    box-sizing: border-box;
     padding: 60px 80px;
   }
 

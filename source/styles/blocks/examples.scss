@@ -1,21 +1,21 @@
 .examples {
   background-color: #eaeaea;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .examples__wrapper {
   width: $mobile-width-only;
   padding: 25px 20px 40px;
-  box-sizing: border-box;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     width: $tablet-width;
     padding: 45px 30px 250px;
-    box-sizing: border-box;
   }
 
   @media (min-width: $desktop-width) {
     width: $desktop-width;
-    box-sizing: border-box;
     padding: 69px 110px 85px;
   }
 }

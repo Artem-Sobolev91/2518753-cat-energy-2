@@ -4,6 +4,8 @@
   line-height: 20px;
   text-transform: uppercase;
   color: $base-color-text-black;
+  margin: 0 auto;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     font-size: 18px;
