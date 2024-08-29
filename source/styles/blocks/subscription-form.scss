@@ -1,25 +1,21 @@
 .subscription-form {
   color: $base-color-text-black;
   font-family: $oswald;
-  width: $mobile-width-only;
-
-  @media (min-width: $tablet-width) {
-    width: $tablet-width;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: $desktop-width;
-  }
+  width: 100%;
 }
 
 .subscription-form__wrapper {
+  width: $mobile-width-only;
   padding: 40px 20px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
+    width: $tablet-width;
     padding: 80px 68px;
   }
 
   @media (min-width: $desktop-width) {
+    width: $desktop-width;
     padding: 96px 110px 104px;
   }
 }

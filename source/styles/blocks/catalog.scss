@@ -1,17 +1,12 @@
 .catalog {
-  width: $mobile-width-only;
+  width: 100%;
   margin-bottom: 26px;
-
-  @media (min-width: $tablet-width) {
-    width: $tablet-width;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: $desktop-width;
-  }
 }
 
 .catalog__wrapper {
+  width: $mobile-width-only;
+  margin: 0 auto;
+
   @media (min-width: $tablet-width) {
     width: $tablet-width;
     padding: 0 30px;
