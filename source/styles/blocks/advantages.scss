@@ -97,51 +97,60 @@
 
 .advantages__item--benefit::after {
   content: "";
-  width: 32px;
-  height: 32px;
   background-image: url("../../icons/stack.svg#index-leaf");
-  position: absolute;
-  left: 15px;
   top: 15px;
-}
-
-.advantages__item--water::after {
-  content: "";
-  width: 32px;
-  height: 32px;
-  background-image: url("../../icons/stack.svg#index-water");
-  position: absolute;
-  left: 15px;
-  top: 15px;
-}
-
-.advantages__item--instructions::after {
-  content: "";
-  width: 32px;
-  height: 32px;
-  background-image: url("../../icons/stack.svg#index-eat");
-  position: absolute;
-  left: 15px;
-  top: 15px;
-}
-
-.advantages__item--index-watch::after {
-  content: "";
-  width: 32px;
-  height: 32px;
-  background-image: url("../../icons/stack.svg#index-watch");
-  position: absolute;
-  left: 15px;
-  top: 15px;
-}
-
-
-.advantages__item::before {
-  content: "";
   width: 60px;
   height: 60px;
   background-color: $button-background;
   position: absolute;
   left: 0;
   display: block;
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantages__item--water::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#index-water");
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  background-color: $button-background;
+  position: absolute;
+  left: 0;
+  display: block;
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantages__item--instructions::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#index-eat");
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  background-color: $button-background;
+  position: absolute;
+  left: 0;
+  display: block;
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantages__item--index-watch::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#index-watch");
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  background-color: $button-background;
+  position: absolute;
+  left: 0;
+  display: block;
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
 }

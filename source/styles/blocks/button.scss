@@ -8,8 +8,8 @@
   color: $button-color-text;
   background-color: $button-background;
   width: 100%;
-  min-height: 40px;
-  display: block;
+  display: inline-block;
+  padding: 10px 15px;
 }
 
 .button:hover {
