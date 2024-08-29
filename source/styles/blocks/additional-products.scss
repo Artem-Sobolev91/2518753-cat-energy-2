@@ -2,19 +2,12 @@
   width: $mobile-width-only;
   font-size: 14px;
   line-height: 14px;
-}
 
-@media (min-width: $tablet-width) {
-  .additional-products {
+  @media (min-width: $tablet-width) {
     width: $tablet-width;
-    font-size: 14px;
-    line-height: 14px;
   }
-}
 
-
-@media (min-width: $desktop-width) {
-  .additional-products {
+  @media (min-width: $desktop-width) {
     width: $desktop-width;
     font-size: 20px;
     line-height: 20px;
@@ -25,23 +18,18 @@
 .additional-products__wrapper {
   box-sizing: border-box;
   padding: 0 20px;
-}
 
-@media (min-width: $tablet-width) {
-  .additional-products__wrapper {
+  @media (min-width: $tablet-width) {
     box-sizing: border-box;
     padding: 0 30px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .additional-products__wrapper {
+  @media (min-width: $desktop-width) {
     box-sizing: border-box;
     padding: 0 110px;
     padding-right: 109px;
   }
 }
-
 
 .additional-products h3 {
   font-family: $oswald;
@@ -58,10 +46,8 @@
   margin-bottom: 35px;
   display: grid;
   grid-template-columns: repeat(1, 280px);
-}
 
-@media (min-width: $tablet-width) {
-  .additional-products__list {
+  @media (min-width: $tablet-width) {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -69,10 +55,8 @@
     display: grid;
     grid-template-columns: repeat(1, 708px);
   }
-}
 
-@media (min-width: $desktop-width) {
-  .additional-products__list {
+  @media (min-width: $desktop-width) {
     list-style: none;
     margin: 0;
     padding: 0;
