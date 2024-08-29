@@ -5,17 +5,13 @@
 }
 
 .examples__wrapper {
-  width: $mobile-width-only;
   padding: 25px 20px 40px;
-  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: $tablet-width;
     padding: 45px 30px 250px;
   }
 
   @media (min-width: $desktop-width) {
-    width: $desktop-width;
     padding: 69px 110px 85px;
   }
 }

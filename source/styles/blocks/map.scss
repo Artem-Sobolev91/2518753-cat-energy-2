@@ -6,16 +6,12 @@
 
 .map__wrapper {
   padding: 0;
-  margin: 0 auto;
-  width: $mobile-width-only;
 
-  @media (min-width: $tablet-width) {
-    width: $tablet-width;
-  }
+  // @media (min-width: $tablet-width) {
+  // }
 
-  @media (min-width: $desktop-width) {
-    width: $desktop-width;
-  }
+  // @media (min-width: $desktop-width) {
+  // }
 }
 
 .map__container {
