@@ -15,16 +15,3 @@ body {
   box-sizing: border-box;
 }
 
-.container-wrapper {
-  width: $mobile-width-only;
-  margin: 0 auto;
-
-  @media (min-width: $tablet-width) {
-    width: $tablet-width;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: $desktop-width;
-  }
-}
-
