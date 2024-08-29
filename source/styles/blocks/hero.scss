@@ -7,18 +7,12 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    font-family: $oswald;
     font-size: 20px;
     line-height: 20px;
-    color: $base-color-text-black;
     width: $tablet-width;
   }
 
   @media (min-width: $desktop-width) {
-    color: $base-color-text-black;
-    font-family: $oswald;
-    font-size: 20px;
-    line-height: 20px;
     width: $desktop-width;
   }
 }
@@ -31,7 +25,6 @@
   @media (min-width: $tablet-width) {
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -76,8 +69,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    font-weight: 400;
-    font-size: 60px;
     line-height: 60px;
     text-align: center;
     margin-top: 0;

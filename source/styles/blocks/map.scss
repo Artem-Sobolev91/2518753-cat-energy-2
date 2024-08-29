@@ -4,14 +4,10 @@
   width: $mobile-width-only;
 
   @media (min-width: $tablet-width) {
-    font-weight: 400;
-    margin: 0;
     width: $tablet-width;
   }
 
   @media (min-width: $desktop-width) {
-    font-weight: 400;
-    margin: 0;
     width: $desktop-width;
   }
 }
@@ -29,14 +25,10 @@
     width: 565px;
     box-sizing: border-box;
     padding: 60px 80px;
-    display: flex;
-    justify-content: space-between;
   }
 
   @media (min-width: $desktop-width) {
     padding: 60px 78px;
-    display: flex;
-    justify-content: space-between;
   }
 }
 

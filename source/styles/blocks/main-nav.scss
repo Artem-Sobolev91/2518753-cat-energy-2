@@ -6,19 +6,13 @@
   color: $base-color-text-black;
 
   @media (min-width: $tablet-width) {
-    font-family: $oswald;
     font-size: 18px;
     line-height: 24px;
-    text-transform: uppercase;
-    color: $base-color-text-black;
   }
 
   @media (min-width: $desktop-width) {
-    font-family: $oswald;
     font-size: 20px;
     line-height: 29.64px;
-    text-transform: uppercase;
-    color: $base-color-text-black;
   }
 }
 
@@ -27,11 +21,13 @@
   display: none;
 
   @media (min-width: $tablet-width) {
-    list-style: none;
     display: flex;
     gap: 33px;
   }
+}
 
+
+@media (min-width: $tablet-width) {
   .main-nav__burger {
     display: none;
   }

@@ -17,21 +17,20 @@
   box-sizing: border-box;
   min-height: 380px;
   padding: 0 20px;
+
   @media (min-width: $tablet-width) {
-      box-sizing: border-box;
-      min-height: 380px;
-      padding-left: 30px;
-      padding-right: 109px;
+    box-sizing: border-box;
+    min-height: 380px;
+    padding-left: 30px;
+    padding-right: 109px;
   }
 
   @media (min-width: $desktop-width) {
-      min-height: 280px;
-      padding-left: 110px;
-      padding-right: 109px;
-      box-sizing: border-box;
-
+    min-height: 280px;
+    padding-left: 110px;
+    box-sizing: border-box;
+  }
 }
-
 
 .advantages__title {
   font-family: $oswald;
@@ -54,27 +53,19 @@
   gap: 20px;
 
   @media (min-width: $tablet-width) {
-      list-style: none;
-      font-family: $lato;
-      font-size: 14px;
-      line-height: 18px;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      grid-template-columns: 230px 230px;
-      gap: 37px 137px;
+    list-style: none;
+    font-family: $lato;
+    display: grid;
+    grid-template-columns: 230px 230px;
+    gap: 37px 137px;
   }
 
   @media (min-width: $desktop-width) {
-      list-style: none;
-      font-family: $lato;
-      font-size: 14px;
-      line-height: 18px;
-      margin: 0;
-      padding: 0;
-      gap: 0;
-      display: flex;
-      justify-content: space-between;
+    list-style: none;
+    font-family: $lato;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -84,10 +75,9 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-      width: auto;
-      min-height: 280px;
-      position: relative;
-
+    width: auto;
+    min-height: 280px;
+    position: relative;
   }
 }
 
@@ -97,23 +87,20 @@
   margin: 0;
 
   @media (min-width: $tablet-width) {
-      width: 204px;
-      padding-right: 26px;
-      margin: 0;
-      padding-left: 0;
-      padding-top: 151px;
-      min-height: 280px;
-      box-sizing: border-box;
+    width: 204px;
+    padding-right: 26px;
+    padding-left: 0;
+    padding-top: 151px;
+    min-height: 280px;
+    box-sizing: border-box;
   }
 
   @media (min-width: $desktop-width) {
-      width: 246px;
-      padding: 151px 22px 57px 0;
-      margin: 0;
-      min-height: 280px;
-      box-sizing: border-box;
+    width: 246px;
+    padding: 151px 22px 57px 0;
+    min-height: 280px;
+    box-sizing: border-box;
   }
-
 }
 
 .advantages__item--benefit::after {
