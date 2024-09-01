@@ -28,3 +28,15 @@ navBurger.addEventListener('click', () => {
   }
 });
 
+const mainIcon = document.querySelector('.main-header__icon');
+
+
+navBurger.addEventListener('click', () => {
+  if (mainIcon.classList.contains('main-icon--opened')) {
+    mainIcon.classList.remove('main-icon--opened');
+    mainIcon.classList.add('main-icon--closed');
+  } else {
+    mainIcon.classList.add('main-icon--opened');
+    mainIcon.classList.remove('main-icon--closed');
+  }
+});
