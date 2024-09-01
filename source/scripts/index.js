@@ -15,7 +15,7 @@ navBurger.addEventListener('click', () => {
 });
 
 
-const mainIcon = document.querySelector('.main-nav__burger svg');
+const mainIcon = document.querySelector('.main-nav__burger--icon');
 
 
 navBurger.addEventListener('click', () => {
