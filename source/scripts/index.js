@@ -12,8 +12,6 @@ navBurger.addEventListener('click', () => {
     navMain.classList.add('main-nav--closed');
     navMain.classList.remove('main-nav--opened');
   }
-
-
 });
 
 
@@ -28,7 +26,5 @@ navBurger.addEventListener('click', () => {
     mainIcon.classList.add('main-icon--opened');
     mainIcon.classList.remove('main-icon--closed');
   }
-
-
 });
 
