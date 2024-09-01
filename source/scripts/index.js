@@ -15,7 +15,7 @@ navBurger.addEventListener('click', () => {
 });
 
 
-const mainIcon = document.querySelector('.main-header__icon');
+const mainIcon = document.querySelector('.main-nav__burger');
 
 
 navBurger.addEventListener('click', () => {
@@ -26,5 +26,13 @@ navBurger.addEventListener('click', () => {
     mainIcon.classList.add('main-icon--opened');
     mainIcon.classList.remove('main-icon--closed');
   }
+  if (mainIcon.classList.contains('main-icon--closed')) {
+    mainIcon.classList.remove('main-icon--closed');
+    mainIcon.classList.add('main-icon--opened');
+  } else {
+    mainIcon.classList.add('main-icon--closed');
+    mainIcon.classList.remove('main-icon--opened');
+  }
+
 });
 
