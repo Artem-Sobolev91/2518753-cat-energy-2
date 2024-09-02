@@ -49,7 +49,6 @@
   padding-top: 27px;
   color: #ffffff;
 
-
   @media (min-width: $desktop-width) {
     position: relative;
   }
@@ -67,6 +66,7 @@
   line-height: 36px;
   text-align: center;
   margin: 0;
+  margin-bottom: 25px;
 
   @media (min-width: $tablet-width) {
     font-weight: 400;
@@ -92,7 +92,7 @@
 .hero__picture {
   z-index: 2;
   position: absolute;
-  top: 140px;
+  top: 167px;
   left: 20px;
 }
 
