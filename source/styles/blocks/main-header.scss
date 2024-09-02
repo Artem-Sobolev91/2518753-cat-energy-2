@@ -1,6 +1,7 @@
 .main-header {
   width: 100%;
 
+
   @media (min-width: $tablet-width) {
     margin-bottom: 65px;
   }
@@ -8,6 +9,8 @@
 
 
 .main-header__wrapper {
+  padding-bottom: 14px;
+
   @media (min-width: $tablet-width) {
     padding: 25px 34px 0 30px;
     display: flex;
