@@ -31,6 +31,7 @@
   background-color: #ffffff;
 
   @media (min-width: $tablet-width) {
+    position: static;
     display: flex;
     gap: 33px;
     flex-wrap: wrap;
