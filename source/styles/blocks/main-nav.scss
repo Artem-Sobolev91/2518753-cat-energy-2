@@ -91,10 +91,11 @@
   }
 }
 
-.main-icon--opened {
-  display: block;
-}
 
 .main-icon--closed {
   display: none;
+}
+
+.main-icon--opened {
+  display: inline;
 }

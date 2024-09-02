@@ -15,19 +15,16 @@ navBurger.addEventListener('click', () => {
 });
 
 
-const mainIcon = document.querySelector('.main-nav__burger--icon');
-
+const navIcon = document.querySelector('.main-header__icon');
 
 navBurger.addEventListener('click', () => {
-  if (mainIcon.classList.contains('main-icon--opened')) {
-    mainIcon.classList.remove('main-icon--opened');
-    mainIcon.classList.add('main-icon--closed');
+  if (navIcon.classList.contains('main-icon--opened')) {
+    navIcon.classList.remove('main-icon--opened');
+    navIcon.classList.add('main-icon--closed');
   } else {
-    mainIcon.classList.add('main-icon--opened');
-    mainIcon.classList.remove('main-icon--closed');
+    navIcon.classList.add('main-nav--opened');
+    navIcon.classList.remove('main-icon--closed');
   }
-
-
 });
 
 
