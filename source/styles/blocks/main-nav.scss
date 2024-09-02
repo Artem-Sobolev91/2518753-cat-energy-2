@@ -36,6 +36,10 @@
 
 .main-nav--closed {
   display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
 }
 
 
@@ -47,6 +51,10 @@
   border: 1px solid #e6e6e6;
   border-left: none;
   border-right: none;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
 }
 
 .main-nav__link {
@@ -62,40 +70,3 @@
   opacity: 0.3;
 }
 
-.main-nav__burger:hover {
-  opacity: 0.8;
-}
-
-.main-nav__burger:active {
-  opacity: 0.6;
-}
-
-.main-nav__burger {
-  width: 24px;
-  height: 24px;
-  border: none;
-  padding: 0;
-  background-color: $button-background-white;
-  display: block;
-  cursor: pointer;
-}
-
-.main-nav__burger--cross {
-  display: none;
-  cursor: pointer;
-}
-
-@media (min-width: $tablet-width) {
-  .main-nav__burger {
-    display: none;
-  }
-}
-
-
-.main-icon--closed {
-  display: none;
-}
-
-.main-icon--opened {
-  display: inline;
-}
