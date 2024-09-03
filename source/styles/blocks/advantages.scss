@@ -76,7 +76,7 @@
 }
 
 .advantages__text {
-  width: 200px;
+  width: 280px;
   padding-left: 80px;
   margin: 0;
 
@@ -98,7 +98,7 @@
 .advantages__item--benefit::after {
   content: "";
   background-image: url("../../icons/stack.svg#index-leaf");
-  top: 15px;
+  top: 0;
   width: 60px;
   height: 60px;
   background-color: $button-background;
@@ -113,7 +113,7 @@
 .advantages__item--water::after {
   content: "";
   background-image: url("../../icons/stack.svg#index-water");
-  top: 15px;
+  top: 0;
   width: 60px;
   height: 60px;
   background-color: $button-background;
@@ -128,7 +128,7 @@
 .advantages__item--instructions::after {
   content: "";
   background-image: url("../../icons/stack.svg#index-eat");
-  top: 15px;
+  top: 0;
   width: 60px;
   height: 60px;
   background-color: $button-background;
@@ -143,7 +143,7 @@
 .advantages__item--index-watch::after {
   content: "";
   background-image: url("../../icons/stack.svg#index-watch");
-  top: 15px;
+  top: 0;
   width: 60px;
   height: 60px;
   background-color: $button-background;
