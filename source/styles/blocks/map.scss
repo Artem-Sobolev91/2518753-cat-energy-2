@@ -17,7 +17,6 @@
 .map__container {
   padding: 26px 20px;
   display: flex;
-  justify-content: space-between;
 
   @media (min-width: $tablet-width) {
     width: 565px;
@@ -37,6 +36,8 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #111111;
+  width: 140px;
+  margin: 0;
 }
 
 .map__adress {
@@ -44,4 +45,13 @@
   font-size: 14px;
   line-height: 20px;
   text-align: right;
+  width: 140px;
+}
+
+.map__street {
+  margin: 0;
+}
+
+.map__city {
+  margin: 0;
 }

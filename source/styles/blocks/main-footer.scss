@@ -7,7 +7,6 @@
 
 .main-footer__wrapper {
   padding: 40px 20px;
-  text-align: center;
 
   @media (min-width: $tablet-width) {
     padding: 55px 30px;
@@ -21,6 +20,31 @@
   }
 }
 
+.main-footer__list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-footer__item {
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #d9d9d9;
+  width: 100%;
+}
+
+.main-footer__item:last-child {
+  border-bottom: none;
+}
+
+.main-footer__logo-text {
+  padding-bottom: 20px;
+}
+
 .main-footer__logo-text:hover {
   opacity: 0.8;
 }
@@ -29,13 +53,19 @@
   opacity: 0.6;
 }
 
-
 .social-list__link {
   fill: #666666;
 }
 
 .social-list__link:hover {
   fill: #68b738;
+}
+
+.main-footer__logo {
+  display: flex;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-footer__logo-academy-svg {

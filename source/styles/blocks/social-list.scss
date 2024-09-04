@@ -1,11 +1,13 @@
 .social-list {
   list-style: none;
-  width: 132px;
   min-height: 22px;
-  display: grid;
-  grid-template-columns: repeat(3, 22px);
+  display: flex;
+  width: 132px;
+  justify-content: space-between;
   gap: 24px;
-  margin: 0;
+
+  padding: 0;
+  margin: 0 auto;
 }
 
 .social-list__item a {
