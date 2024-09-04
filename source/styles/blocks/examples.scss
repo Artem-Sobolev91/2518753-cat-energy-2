@@ -116,15 +116,20 @@
 
 .examples__cat-big {
   position: absolute;
+  width: 50%;
+  overflow: hidden;
   z-index: 20;
   top: 1px;
+  left: 0;
 }
 
 .examples__cat-small {
   position: absolute;
+  width: 50%;
   z-index: 10;
-  left: 23px;
+  left: 76px;
   top: 1px;
+  overflow: hidden;
 }
 
 .examples__button-thumb:hover {
