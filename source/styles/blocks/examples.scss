@@ -108,28 +108,40 @@
   border: none;
   border-radius: 2px;
   padding: 0;
-  position: relative;
+  position: absolute;
   outline: none;
   z-index: 30;
-  left: 144px;
+  left: 140px;
+}
+
+.examples__picture-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 280px;
+  min-height: 256px;
+}
+
+.examples__picture-before {
+  overflow: hidden;
+  text-align: left;
 }
 
 .examples__cat-big {
-  position: absolute;
-  width: 50%;
+  display: block;
+
+  width: 200%;
+  transform: translateX(0%);
+}
+
+.examples__picture-after {
   overflow: hidden;
-  z-index: 20;
-  top: 1px;
-  left: 0;
+  text-align: right;
 }
 
 .examples__cat-small {
-  position: absolute;
-  width: 50%;
-  z-index: 10;
-  left: 76px;
-  top: 1px;
-  overflow: hidden;
+  display: block;
+  width: 200%;
+  transform: translateX(-50%);
 }
 
 .examples__button-thumb:hover {
