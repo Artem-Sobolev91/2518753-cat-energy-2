@@ -27,6 +27,14 @@
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }
 
 
@@ -35,6 +43,13 @@
   padding: 20px 0;
   border-bottom: 1px solid #d9d9d9;
   width: 100%;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .main-footer__item:last-child {
@@ -67,6 +82,10 @@
   justify-content: center;
   align-items: center;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    gap: 23px;
+  }
 }
 
 .main-footer__logo-academy-svg {
