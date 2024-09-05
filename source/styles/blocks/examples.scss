@@ -30,6 +30,10 @@
     line-height: 60px;
     margin-bottom: 60px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 76px;
+  }
 }
 
 .examples__text {
@@ -53,6 +57,11 @@
     align-items: baseline;
     margin-bottom: 99px;
   }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
 }
 
 
@@ -70,6 +79,18 @@
   justify-content: center;
   position: relative;
   margin: 0;
+
+  @media (min-width: $desktop-width) {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 162px;
+    min-width: 77px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
 }
 
 .examples__label--weight::after {
@@ -84,6 +105,15 @@
   left: 20px;
   color: $base-color-text;
   padding: 0 15px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 14px;
+    line-height: 14px;
+    width: 96px;
+    padding: 0;
+    top: 63px;
+    left: 28px;
+  }
 }
 
 .examples__label--time::after {
@@ -98,12 +128,31 @@
   left: 20px;
   color: $base-color-text;
   padding: 0 15px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 14px;
+    line-height: 14px;
+    width: 96px;
+    padding: 0;
+    top: 63px;
+    left: 28px;
+  }
+}
+
+.examples__container {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
 
 .examples__container-label {
   display: flex;
   gap: 32px;
   margin-bottom: 34px;
+
+  @media (min-width: $desktop-width) {
+    gap: 42px;
+  }
 }
 
 .examples__tiitle-examples {
@@ -122,6 +171,7 @@
   }
 }
 
+
 .examples__expenses {
   font-family: $oswald;
   font-size: 14px;
@@ -133,10 +183,21 @@
   @media (min-width: $tablet-width) {
     margin: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 100%;
+    gap: 63px;
+  }
 }
 
 .examples__picture {
   position: relative;
+
+  @media (min-width: $desktop-width) {
+    width: 560px;
+    height: 512px;
+  }
 }
 
 .examples__button-thumb {
@@ -153,6 +214,10 @@
 
   @media (min-width: $tablet-width) {
     left: 352px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 279px;
   }
 }
 
@@ -179,6 +244,10 @@
   @media (min-width: $tablet-width) {
     transform: translateX(20%);
   }
+
+  @media (min-width: $desktop-width) {
+    transform: translateX(0);
+  }
 }
 
 .examples__picture-after {
@@ -194,6 +263,10 @@
 
   @media (min-width: $tablet-width) {
     transform: translateX(-60%);
+  }
+
+  @media (min-width: $desktop-width) {
+    transform: translateX(-284px);
   }
 }
 
