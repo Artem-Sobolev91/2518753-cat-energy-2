@@ -8,7 +8,7 @@
   padding: 25px 20px 40px;
 
   @media (min-width: $tablet-width) {
-    padding: 45px 30px 250px;
+    padding: 45px 30px 101px;
   }
 
   @media (min-width: $desktop-width) {
@@ -24,6 +24,12 @@
   font-weight: 400;
   margin: 0;
   margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 60px;
+  }
 }
 
 .examples__text {
@@ -32,7 +38,23 @@
   line-height: 18px;
   margin: 0;
   margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 55px;
+  }
 }
+
+.examples__expenses-container {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 99px;
+  }
+}
+
 
 .examples__options {
   font-family: $oswald;
@@ -86,6 +108,18 @@
 
 .examples__tiitle-examples {
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.examples__examples {
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .examples__expenses {
@@ -95,6 +129,10 @@
   color: $base-color-text-black;
   width: 188px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
 }
 
 .examples__picture {
@@ -103,7 +141,7 @@
 
 .examples__button-thumb {
   width: 4px;
-  height: 256px;
+  height: 100%;
   background-color: #666666;
   border: none;
   border-radius: 2px;
@@ -112,36 +150,51 @@
   outline: none;
   z-index: 30;
   left: 140px;
+
+  @media (min-width: $tablet-width) {
+    left: 352px;
+  }
 }
 
 .examples__picture-container {
   display: flex;
   justify-content: space-between;
-  max-width: 280px;
-  min-height: 256px;
+
+
+  @media (min-width: $tablet-width) {
+
+  }
 }
 
 .examples__picture-before {
   overflow: hidden;
+  width: 50%;
   text-align: left;
 }
 
 .examples__cat-big {
   display: block;
-
-  width: 200%;
   transform: translateX(0%);
+
+  @media (min-width: $tablet-width) {
+    transform: translateX(20%);
+  }
 }
 
 .examples__picture-after {
   overflow: hidden;
   text-align: right;
+  width: 50%;
 }
 
 .examples__cat-small {
   display: block;
   width: 200%;
   transform: translateX(-50%);
+
+  @media (min-width: $tablet-width) {
+    transform: translateX(-60%);
+  }
 }
 
 .examples__button-thumb:hover {
@@ -159,6 +212,11 @@
   position: absolute;
   top: 104px;
   left: -18px;
+
+  @media (min-width: $tablet-width) {
+    top: 228px;
+    left: -18px;
+  }
 }
 
 .examples__thumb:hover {
