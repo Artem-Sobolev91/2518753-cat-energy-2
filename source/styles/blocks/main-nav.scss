@@ -19,6 +19,28 @@
   }
 }
 
+.main-nav__wrapper {
+  position: relative;
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__wrapper::before {
+    content: "";
+    width: 720px;
+    height: 694px;
+
+    background:
+      linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+      url("../../images/index-background-desktop-desktop@2x.png");
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    top: -71px;
+    left: -135px;
+    z-index: -10;
+  }
+}
+
 .main-nav__site-list {
   list-style: none;
   color: #000000;
