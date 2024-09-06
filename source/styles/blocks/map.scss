@@ -2,21 +2,14 @@
   font-weight: 400;
   margin: 0;
   width: 100%;
-
-  @media (min-width: $desktop-width) {
-
-    position: relative;
-  }
 }
 
 .map__wrapper {
   padding: 0;
 
-  // @media (min-width: $tablet-width) {
-  // }
-
-  // @media (min-width: $desktop-width) {
-  // }
+  @media (min-width: $desktop-width) {
+    position: relative;
+  }
 }
 
 .map__container {
