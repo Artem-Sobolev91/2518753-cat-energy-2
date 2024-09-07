@@ -19,7 +19,6 @@
 .button--grey {
   background-color: #f2f2f2;
   color: #444444;
-
 }
 
 .button--grey:hover {
@@ -31,3 +30,8 @@
   color: $base-color-text;
 }
 
+.button--catalog {
+  width: 280px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
