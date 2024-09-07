@@ -1,8 +1,13 @@
 .present {
   width: 280px;
   min-height: 290px;
-  background-color: rgba(104, 183, 56, 0.85);
+  background:
+    linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+    url("../../images/catalog-image-background@2x.png");
   position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
   @media (min-width: $tablet-width) {
     width: 707px;
