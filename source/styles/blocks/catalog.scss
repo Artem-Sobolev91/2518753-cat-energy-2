@@ -139,6 +139,7 @@
 .catalog__product-card-parameter {
   font-size: 12px;
   line-height: 16px;
+  margin: 0;
 }
 
 .catalog__container-addition {
@@ -146,6 +147,15 @@
   min-height: 97px;
   padding-top: 53px;
   position: relative;
+  margin: 0 auto;
+  margin-bottom: 21px;
+}
+
+.catalog__product-card-title--addition {
+  width: auto;
+  align-items: center;
+  padding: 0 7.5px;
+  margin-bottom: 8px;
 }
 
 .catalog__container-addition::before {
@@ -155,10 +165,12 @@
   height: 30px;
   position: absolute;
   top: 0;
-  right: 109.5px;
+  right: 94.5px;
 }
 
 .catalog__button {
   width: 280px;
-  padding: 9px 109px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
+
