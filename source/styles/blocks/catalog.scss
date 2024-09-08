@@ -22,6 +22,11 @@
   margin: 0;
   padding: 27px 22px 41px;
   position: relative;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 159px;
+    padding-bottom: 0;
+  }
 }
 
 .catalog__title::before {
@@ -32,6 +37,10 @@
   position: absolute;
   top: 0;
   left: 0;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .catalog__title::after {
@@ -42,6 +51,10 @@
   position: absolute;
   top: 107px;
   left: 0;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 
@@ -54,6 +67,7 @@
 
   @media (min-width: $tablet-width) {
     grid-template-columns: repeat(2, 324px);
+    gap: 141px 60px;
   }
 
 
@@ -69,9 +83,11 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
+    padding: 0;
+    min-height: 429px;
+    background-color: #f2f2f2;
     padding-left: 37px;
     padding-right: 37px;
-    padding-bottom: 40px;
   }
 
   @media (min-width: $desktop-width) {
@@ -90,18 +106,34 @@
   position: absolute;
   top: 209px;
   left: 0;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
+
 
 .catalog__product-card-container {
   padding-left: 140px;
   margin-bottom: 21px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    padding-top: 160px;
+  }
 }
 
 .catalog__picture {
   position: absolute;
   top: 30.5px;
   left: 36px;
+
+  @media (min-width: $tablet-width) {
+    top: -80px;
+    left: 60px;
+  }
 }
+
 
 .catalog__product-card-title {
   font-weight: 400;
@@ -110,6 +142,16 @@
   width: 76px;
   margin: 0;
   margin-bottom: 14px;
+
+  @media (min-width: $tablet-width) {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 50px;
+  }
 }
 
 .catalog__product-card-link {
@@ -123,12 +165,22 @@
   font-family: $lato;
   font-size: 12px;
   line-height: 16px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 37px;
+  }
 }
 
 .catalog__table-tr {
   display: flex;
   justify-content: space-between;
   width: 140px;
+
+  @media (min-width: $tablet-width) {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 .catalog__table td {
@@ -168,3 +220,5 @@
   right: 94.5px;
 }
 
+.catalog__button {
+}

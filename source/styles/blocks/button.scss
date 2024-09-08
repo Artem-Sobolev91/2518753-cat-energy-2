@@ -6,6 +6,10 @@
   color: $button-color-text;
   background-color: $button-background;
   display: inline-block;
+  width: 100%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border: none;
 }
 
 .button:hover {
@@ -30,9 +34,4 @@
   color: $base-color-text;
 }
 
-.button--catalog {
-  width: 280px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  border: none;
-}
+
