@@ -26,6 +26,9 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 159px;
     padding-bottom: 0;
+    font-size: 60px;
+    line-height: 60px;
+    padding-left: 0;
   }
 }
 
@@ -180,11 +183,28 @@
     width: 250px;
     text-align: center;
     margin-bottom: 10px;
+    position: relative;
+  }
+}
+
+.catalog__table-tr::after {
+  @media (min-width: $tablet-width) {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #cdcdcd;
+    position: absolute;
+    top: 27px;
   }
 }
 
 .catalog__table td {
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 
@@ -192,6 +212,17 @@
   font-size: 12px;
   line-height: 16px;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+
+.catalog__product-card--addition {
+  background-color: #ffffff;
+  border: 2px solid #f2f2f2;
 }
 
 .catalog__container-addition {
@@ -201,6 +232,12 @@
   position: relative;
   margin: 0 auto;
   margin-bottom: 21px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    padding-top: 160px;
+    margin-bottom: 110px;
+  }
 }
 
 .catalog__product-card-title--addition {
@@ -208,6 +245,11 @@
   align-items: center;
   padding: 0 7.5px;
   margin-bottom: 8px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20.5px;
+    margin-bottom: 23px;
+  }
 }
 
 .catalog__container-addition::before {
@@ -218,6 +260,13 @@
   position: absolute;
   top: 0;
   right: 94.5px;
+
+  @media (min-width: $tablet-width) {
+    width: 60px;
+    height: 60px;
+    top: 60px;
+    right: 80px;
+  }
 }
 
 .catalog__button {

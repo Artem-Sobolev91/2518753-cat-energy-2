@@ -11,6 +11,13 @@
 
   @media (min-width: $tablet-width) {
     width: 707px;
+    min-height: 200px;
+    background:
+      linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+      url("../../images/catalog-image-background@2x.png") bottom -226px right 1px / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position: bottom -226px right 0;
   }
 }
 
@@ -35,4 +42,11 @@
   text-align: center;
   padding-top: 187px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 71px;
+    margin: 0;
+    text-align: center;
+    margin-left: 421px;
+  }
 }
