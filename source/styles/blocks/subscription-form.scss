@@ -37,7 +37,7 @@
   height: 2px;
   background-color: $button-background;
   position: absolute;
-  top: 18px;
+  top: 19px;
   left: 212px;
 
   @media (min-width: $tablet-width) {
@@ -52,8 +52,12 @@
     height: 2px;
     background-color: $button-background;
     position: absolute;
-    top: 18px;
+    top: 19px;
     left: -667px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: -1250px;
   }
 }
 

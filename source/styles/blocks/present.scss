@@ -19,6 +19,14 @@
     background-repeat: no-repeat;
     // background-position: bottom -226px right 0;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    height: 288px;
+    background:
+      linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+      url("../../images/catalog-image-background@2x.png") bottom 0 right 0 / cover no-repeat;
+  }
 }
 
 
@@ -30,6 +38,10 @@
   position: absolute;
   left: 100px;
   top: 59px;
+
+  @media (min-width: $desktop-width) {
+    left: 80px;
+  }
 }
 
 .present__text {
@@ -48,5 +60,13 @@
     margin: 0;
     text-align: center;
     margin-left: 421px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding-top: 185px;
+    padding-left: 45px;
+    width: auto;
+    padding-right: 45px;
   }
 }
