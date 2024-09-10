@@ -29,6 +29,10 @@
     line-height: 32px;
     margin-bottom: 66px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 72px;
+  }
 }
 
 .subscription-form__title::before {
@@ -37,7 +41,7 @@
   height: 2px;
   background-color: $button-background;
   position: absolute;
-  top: 19px;
+  top: 18px;
   left: 212px;
 
   @media (min-width: $tablet-width) {
@@ -52,7 +56,7 @@
     height: 2px;
     background-color: $button-background;
     position: absolute;
-    top: 19px;
+    top: 18px;
     left: -667px;
   }
 
@@ -84,6 +88,11 @@
     flex-direction: row;
     gap: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    width: 752px;
+  }
 }
 
 .subscription-form__field {
@@ -96,6 +105,10 @@
     width: 376px;
     font-size: 20px;
     line-height: 29.64px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 496px;
   }
 }
 
