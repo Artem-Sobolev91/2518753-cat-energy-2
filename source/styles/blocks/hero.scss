@@ -13,24 +13,6 @@
   }
 }
 
-@media (min-width: $desktop-width) {
-  .hero__wrapper::before {
-    content: "";
-    width: 720px;
-    height: 694px;
-
-    background:
-      linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-      url("../../images/index-background-desktop-desktop@2x.png");
-    background-position: right;
-    background-size: cover;
-    position: absolute;
-    top: -212px;
-    left: 720px;
-    z-index: -10;
-  }
-}
-
 .hero__wrapper {
   padding-bottom: 0;
   position: relative;
