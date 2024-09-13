@@ -8,6 +8,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    background: linear-gradient(0deg, #eaeaea 80%, #ffffff 20%);
   }
 }
 
@@ -154,7 +155,6 @@
 
 .examples__background {
   @media (min-width: $desktop-width) {
-    background-color: #eaeaea;
     margin-left: -110px;
     margin-right: -110px;
     padding-left: 110px;
