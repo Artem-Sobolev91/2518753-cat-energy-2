@@ -79,17 +79,19 @@
 }
 
 .advantages__item ::before {
-  counter-increment: section;
-  content: "" counter(section) "";
-  position: absolute;
-  font-size: 280px;
-  line-height: 280px;
-  top: 0;
-  right: 50px;
-  color: #f2f2f2;
-  font-family: $oswald;
-  z-index: -10;
-  width: 112px;
+  @media (min-width: $tablet-width) {
+    counter-increment: section;
+    content: "" counter(section) "";
+    position: absolute;
+    font-size: 280px;
+    line-height: 280px;
+    top: 0;
+    right: 50px;
+    color: #f2f2f2;
+    font-family: $oswald;
+    z-index: -10;
+    width: 112px;
+  }
 }
 
 
