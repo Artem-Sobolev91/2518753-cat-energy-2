@@ -1,9 +1,8 @@
 .advantages {
   width: 100%;
   margin-bottom: 49px;
+  counter-reset: section;
 
-  // @media (min-width: $tablet-width) {
-  // }
 
   @media (min-width: $desktop-width) {
     min-height: 380px;
@@ -38,10 +37,6 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
-  }
-
-  @media (min-width: $desktop-width) {
-
   }
 }
 
@@ -82,6 +77,21 @@
     position: relative;
   }
 }
+
+.advantages__item ::before {
+  counter-increment: section;
+  content: "" counter(section) "";
+  position: absolute;
+  font-size: 280px;
+  line-height: 280px;
+  top: 0;
+  right: 50px;
+  color: #f2f2f2;
+  font-family: $oswald;
+  z-index: -10;
+  width: 112px;
+}
+
 
 .advantages__text {
   padding-left: 80px;
