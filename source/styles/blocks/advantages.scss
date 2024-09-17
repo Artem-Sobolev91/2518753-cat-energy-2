@@ -49,6 +49,7 @@
   padding: 0;
   display: grid;
   gap: 20px;
+  flex-wrap: wrap;
 
   @media (min-width: $tablet-width) {
     list-style: none;

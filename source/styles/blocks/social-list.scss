@@ -2,12 +2,19 @@
   list-style: none;
   min-height: 22px;
   display: flex;
-  width: 132px;
+  min-width: 132px;
   justify-content: space-between;
   gap: 24px;
-
+  flex-wrap: wrap;
   padding: 0;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    justify-content: center;
+  }
+
+  @media (min-width: $desktop-width) {
+  }
 }
 
 .social-list__item a {

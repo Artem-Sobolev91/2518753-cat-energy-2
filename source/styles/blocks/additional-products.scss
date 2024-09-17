@@ -70,6 +70,7 @@
     justify-content: space-between;
     border-left: none;
     border-right: none;
+    flex-wrap: wrap;
   }
 }
 
@@ -185,6 +186,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  flex-wrap: nowrap;
 
   @media (min-width: $tablet-width) {
     gap: 48px;
@@ -203,6 +205,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    flex-wrap: wrap;
   }
 
   @media (min-width: $desktop-width) {

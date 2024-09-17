@@ -35,9 +35,16 @@
   @media (min-width: $tablet-width) {
     padding: 0 30px;
     width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
+    display: grid;
+    grid-template-columns: 236px 236px 236px;
+    align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 406px 406px 406px;
   }
 }
 
@@ -58,10 +65,6 @@
 
 .main-footer__item:last-child {
   border-bottom: none;
-}
-
-.main-footer__logo-text {
-  padding-bottom: 20px;
 }
 
 .main-footer__logo-text:hover {
@@ -96,6 +99,7 @@
   fill: #666666;
   color: $base-color-text;
   text-decoration: none;
+  display: block;
 }
 
 .main-footer__logo-academy-svg:hover {
@@ -109,4 +113,26 @@
 .main-footer__logo-image {
   width: 128px;
   height: 24px;
+}
+
+.main-footer__item--logo {
+  @media (min-width: $tablet-width) {
+    justify-self: self-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+.main-footer__item--logo-academy {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 168px;
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-self: self-end;
+  }
 }

@@ -22,7 +22,7 @@
 
   @media (min-width: $desktop-width) {
     width: 245px;
-    height: 288px;
+    min-height: 288px;
     background:
       linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
       url("../../images/catalog-image-background@2x.png") bottom 0 right 0 / cover no-repeat;
