@@ -88,9 +88,15 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  margin: 0;
   margin-top: 15px;
   margin-bottom: 15px;
+  flex-direction: column;
+  width: 124px;
+  margin: 0;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  padding: 14px 20px;
+  padding-bottom: 0;
 
   @media (min-width: $desktop-width) {
     font-size: 30px;
@@ -103,42 +109,19 @@
 }
 
 .examples__result-text {
+  color: #444444;
   font-size: 12px;
   line-height: 12px;
+  margin-bottom: -11px;
+  background-color: #eaeaea;
   text-align: center;
-  margin: 0;
-  margin-top: -9px;
-  padding: 0 20px;
+  padding: 0 9px;
 }
 
 .examples__result {
-  display: flex;
-  padding: 0;
-  list-style: none;
-  width: auto;
-  justify-content: space-between;
+  margin-bottom: 7px;
 }
 
-
-.examples__result-item {
-  border: 1px solid #cdcdcd;
-  border-radius: 5px;
-  max-width: 124px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.examples__result-wrapper {
-  width: 124px;
-  min-height: 70px;
-  margin-bottom: -20px;
-}
-
-.examples__container-result {
-  margin-bottom: -20px;
-}
 
 .examples__background {
   @media (min-width: $desktop-width) {
@@ -168,6 +151,7 @@
   display: flex;
   gap: 32px;
   margin-bottom: 34px;
+  justify-content: space-between;
 
   @media (min-width: $desktop-width) {
     gap: 42px;
