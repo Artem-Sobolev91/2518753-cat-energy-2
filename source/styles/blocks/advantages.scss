@@ -62,9 +62,8 @@
   @media (min-width: $desktop-width) {
     list-style: none;
     font-family: $lato;
-    gap: 0;
     display: flex;
-    justify-content: space-between;
+    gap: 10px 33px;
   }
 }
 

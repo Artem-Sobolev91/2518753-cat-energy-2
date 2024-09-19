@@ -8,6 +8,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    // тест переполнение, спросить про градиент
     background: linear-gradient(0deg, #eaeaea 80%, #ffffff 20%);
   }
 }
