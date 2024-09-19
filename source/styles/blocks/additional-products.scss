@@ -31,13 +31,16 @@
     padding: 0;
     margin-bottom: 70px;
     display: grid;
-    grid-template-columns: repeat(1, 896px);
+    grid-template-columns: repeat(1, 708px);
   }
 
   @media (min-width: $desktop-width) {
     list-style: none;
     margin: 0;
     padding: 0;
+    grid-template-columns: repeat(1, 896px);
+    // нужно ли что здесь переделать? добавляю кнопку еще она в начало уезжает.может 3 колонки сделать?
+
   }
 }
 
@@ -169,6 +172,7 @@
   color: #222222;
   margin: 0;
   margin-bottom: 13px;
+  font-family: $oswald;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
