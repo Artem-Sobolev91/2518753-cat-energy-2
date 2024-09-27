@@ -94,8 +94,9 @@
   display: block;
 }
 
-@media (min-width: $desktop-width) {
-  .main-header--cat::before {
+
+.main-header--cat::before {
+  @media (min-width: $desktop-width) {
     content: "";
     width: 50%;
     height: 694px;

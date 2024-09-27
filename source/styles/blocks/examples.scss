@@ -4,12 +4,12 @@
   width: 100%;
 
   @media (min-width: $tablet-width) {
-    background: linear-gradient(0deg, #eaeaea 50%, #ffffff 50%);
+    background: linear-gradient(0deg, #eaeaea 40%, #ffffff 40%);
   }
 
   @media (min-width: $desktop-width) {
     // тест переполнение, спросить про градиент
-    background: linear-gradient(0deg, #eaeaea 80%, #ffffff 20%);
+    background: linear-gradient(0deg, #eaeaea calc(100% - 120px), #ffffff 20%);
   }
 }
 
