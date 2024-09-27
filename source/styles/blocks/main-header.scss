@@ -31,10 +31,12 @@
   padding-top: 13px;
   align-items: center;
   position: relative;
+  margin-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     margin-right: 94px;
     padding: 0;
+    margin-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {

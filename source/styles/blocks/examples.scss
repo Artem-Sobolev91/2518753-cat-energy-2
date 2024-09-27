@@ -104,10 +104,6 @@
     width: 162px;
     min-height: 77px;
   }
-
-  @media (min-width: $desktop-width) {
-
-  }
 }
 
 .examples__result-text {
@@ -255,11 +251,6 @@
 .examples__picture-container {
   display: flex;
   justify-content: space-between;
-
-
-  @media (min-width: $tablet-width) {
-
-  }
 }
 
 .examples__picture-before {
