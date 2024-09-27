@@ -167,6 +167,8 @@
   display: flex;
   gap: 32px;
   justify-content: space-between;
+  margin-bottom: 38px;
+
 
   @media (min-width: $desktop-width) {
     gap: 42px;

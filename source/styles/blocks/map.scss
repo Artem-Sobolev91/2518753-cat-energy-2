@@ -19,13 +19,13 @@
 .map__container {
   padding: 26px 20px;
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: row;
 
   @media (min-width: $tablet-width) {
-    padding: 60px 150px;
+    padding: 60px 70px;
     justify-content: space-between;
+    min-height: 200px;
   }
 
   @media (min-width: $desktop-width) {
@@ -43,16 +43,15 @@
   font-family: $oswald;
   font-size: 16px;
   line-height: 20px;
-  text-align: left;
   font-weight: 400;
   text-transform: uppercase;
   color: #111111;
-  width: 140px;
   margin: 0;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 26px;
+    width: 163px;
   }
 }
 
@@ -60,17 +59,26 @@
   font-family: $lato;
   font-size: 14px;
   line-height: 20px;
-  text-align: right;
-  width: 140px;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 20px;
+    text-align: right;
+    width: 157px;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
   }
 }
 
 .map__street {
   margin: 0;
+
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 27px;
+  }
 
   @media (min-width: $desktop-width) {
     margin-bottom: 19px;
