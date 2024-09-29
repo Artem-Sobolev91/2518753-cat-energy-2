@@ -14,7 +14,7 @@
 }
 
 .examples__wrapper {
-  padding: 25px 20px 40px;
+  padding: 25px 20px 38px;
 
   @media (min-width: $tablet-width) {
     padding: 45px 30px 101px;
@@ -44,6 +44,10 @@
   @media (min-width: $desktop-width) {
     margin-bottom: 76px;
   }
+}
+
+.examples__text-container {
+  margin-bottom: 19px;
 }
 
 
@@ -95,7 +99,7 @@
   margin: 0;
   border: 1px solid #cdcdcd;
   border-radius: 5px;
-  padding: 14px 20px;
+  padding: 10px 20px;
   padding-bottom: 0;
 
   @media (min-width: $tablet-width) {
@@ -128,7 +132,7 @@
 }
 
 .examples__result {
-  margin-bottom: 7px;
+  margin-bottom: 8px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 14px;
@@ -164,7 +168,7 @@
   display: flex;
   gap: 32px;
   justify-content: space-between;
-  margin-bottom: 38px;
+  margin-bottom: 34px;
 
 
   @media (min-width: $desktop-width) {
@@ -198,9 +202,11 @@
   font-size: 14px;
   line-height: 20px;
   color: $base-color-text-black;
-  width: 188px;
+  width: 186px;
   margin: 0 auto;
   flex-wrap: wrap;
+  display: flex;
+  gap: 3px;
 
   @media (min-width: $tablet-width) {
     margin: 0;
@@ -238,7 +244,7 @@
   position: absolute;
   outline: none;
   z-index: 30;
-  left: 140px;
+  left: 138px;
 
   @media (min-width: $tablet-width) {
     left: 352px;
@@ -306,7 +312,7 @@
   stroke: #666666;
   color: #666666;
   position: absolute;
-  top: 104px;
+  top: 107px;
   left: -18px;
 
   @media (min-width: $tablet-width) {

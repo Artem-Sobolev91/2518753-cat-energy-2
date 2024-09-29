@@ -32,13 +32,14 @@
   color: $base-color-text-black;
   font-weight: 400;
   margin: 0;
-  margin-bottom: 42px;
+  margin-bottom: 43px;
   padding-top: 1px;
   padding-left: 1px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
+    margin-bottom: 31px;
   }
 }
 
@@ -58,7 +59,7 @@
     font-family: $lato;
     display: grid;
     grid-template-columns: 230px 230px;
-    gap: 37px 137px;
+    gap: 37px 153px;
   }
 
   @media (min-width: $desktop-width) {
@@ -102,7 +103,7 @@
   margin: 0;
 
   @media (min-width: $tablet-width) {
-    width: 204px;
+    width: 268px;
     padding-right: 0;
     padding-top: 151px;
     min-height: 280px;
