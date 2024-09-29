@@ -1,6 +1,6 @@
 .advantages {
   width: 100%;
-  margin-bottom: 49px;
+  margin-bottom: 47px;
   counter-reset: section;
 
 
@@ -32,7 +32,9 @@
   color: $base-color-text-black;
   font-weight: 400;
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 42px;
+  padding-top: 1px;
+  padding-left: 1px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
@@ -120,12 +122,12 @@
 .advantages__item--benefit::after {
   content: "";
   background-image: url("../../icons/stack.svg#index-leaf");
-  top: 0;
+  top: -2px;
+  left: 1;
   width: 60px;
   height: 60px;
   background-color: $button-background;
   position: absolute;
-  left: 0;
   display: block;
   background-size: 32px 32px;
   background-repeat: no-repeat;
@@ -141,12 +143,12 @@
 .advantages__item--water::after {
   content: "";
   background-image: url("../../icons/stack.svg#index-water");
-  top: 0;
+  top: -2px;
+  left: 1;
   width: 60px;
   height: 60px;
   background-color: $button-background;
   position: absolute;
-  left: 0;
   display: block;
   background-size: 32px 32px;
   background-repeat: no-repeat;
@@ -162,12 +164,12 @@
 .advantages__item--instructions::after {
   content: "";
   background-image: url("../../icons/stack.svg#index-eat");
-  top: 0;
+  top: -2px;
+  left: 1;
   width: 60px;
   height: 60px;
   background-color: $button-background;
   position: absolute;
-  left: 0;
   display: block;
   background-size: 32px 32px;
   background-repeat: no-repeat;
@@ -183,12 +185,12 @@
 .advantages__item--index-watch::after {
   content: "";
   background-image: url("../../icons/stack.svg#index-watch");
-  top: 0;
+  top: -2px;
+  left: 1;
   width: 60px;
   height: 60px;
   background-color: $button-background;
   position: absolute;
-  left: 0;
   display: block;
   background-size: 32px 32px;
   background-repeat: no-repeat;

@@ -95,9 +95,11 @@
 
 .hero__tagline {
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
+  margin-right: 2px;
   font-size: 14px;
   line-height: 14px;
+  text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
     color: #000000;

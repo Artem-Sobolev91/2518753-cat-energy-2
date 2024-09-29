@@ -17,7 +17,7 @@
   padding-top: 20px;
   display: flex;
   flex-flow: column wrap;
-  gap: 20px;
+  gap: 21px;
   margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
@@ -56,8 +56,10 @@
   line-height: 37px;
   text-transform: uppercase;
   font-weight: 400;
-  padding-left: 70px;
-  margin-top: 0;
+  padding-left: 71px;
+  margin: 0;
+  margin-bottom: 29px;
+  padding-top: 9px;
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
@@ -76,7 +78,7 @@
   font-size: 14px;
   line-height: 18px;
   margin: 0;
-  margin-bottom: 38px;
+  margin-bottom: 42px;
   position: relative;
 
   @media (min-width: $tablet-width) {
@@ -116,12 +118,12 @@
 
 .programs__program-link::after {
   content: "";
-  width: 32px;
-  height: 10px;
+  width: 41px;
+  height: 13px;
   background-image: url("../../icons/stack.svg#arrow");
   position: absolute;
-  top: 6px;
-  left: 95px;
+  top: 5px;
+  left: 94px;
 }
 
 .programs__program--weight-loss::before {
@@ -148,10 +150,11 @@
 .programs__program--kit::before {
   content: "";
   width: 67px;
-  height: 50px;
+  height: 52px;
   background-image: url("../../icons/stack.svg#index-cat-back-2");
   position: absolute;
-  left: 13px;
+  left: 12px;
+  top: 24px;
 
   @media (min-width: $tablet-width) {
     width: 200px;
