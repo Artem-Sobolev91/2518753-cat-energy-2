@@ -5,6 +5,10 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 35px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 51px;
+  }
 }
 
 
@@ -40,7 +44,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-right: 543px;
+    margin-right: 541px;
   }
 }
 
@@ -107,7 +111,7 @@
     background-size: cover;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -6px;
     z-index: -10;
   }
 }

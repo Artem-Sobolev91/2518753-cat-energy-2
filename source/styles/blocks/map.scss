@@ -79,9 +79,8 @@
 .map__street {
   margin: 0;
 
-
   @media (min-width: $tablet-width) {
-    margin-bottom: 27px;
+    margin-bottom: 18px;
   }
 
   @media (min-width: $desktop-width) {
@@ -91,4 +90,11 @@
 
 .map__city {
   margin: 0;
+}
+
+
+.map__inframe {
+  @media (min-width: $tablet-width) {
+    height: 400px;
+  }
 }
