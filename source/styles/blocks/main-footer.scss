@@ -20,7 +20,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 66px 110px;
+    padding: 51px 110px;
   }
 }
 
@@ -46,6 +46,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 406px 406px 406px;
+    gap: 142px;
   }
 }
 

@@ -7,6 +7,10 @@
   @media (min-width: $desktop-width) {
     min-height: 380px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 61px;
+  }
 }
 
 .advantages__wrapper {
@@ -66,7 +70,7 @@
     list-style: none;
     font-family: $lato;
     display: flex;
-    gap: 10px 33px;
+    gap: 10px 94px;
   }
 }
 
@@ -77,6 +81,11 @@
 
   @media (min-width: $tablet-width) {
     min-height: 280px;
+    position: relative;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 230px;
     position: relative;
   }
 }
@@ -94,6 +103,10 @@
     font-family: $oswald;
     z-index: -10;
     width: 112px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: 0;
   }
 }
 
