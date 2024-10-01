@@ -40,7 +40,6 @@
     padding: 0;
     grid-template-columns: repeat(1, 896px);
     // нужно ли что здесь переделать? добавляю кнопку еще она в начало уезжает.может 3 колонки сделать?
-
   }
 }
 
@@ -88,7 +87,7 @@
   height: 1px;
   background-color: #e6e6e6;
   position: absolute;
-  top: 120px;
+  top: 129px;
   left: 0;
 
   @media (min-width: $tablet-width) {
@@ -102,9 +101,8 @@
   font-size: 24px;
   line-height: 24px;
   color: #222222;
-  text-transform: uppercase;
   margin: 0 auto;
-  margin-bottom: 36px;
+  margin-bottom: 35px;
   position: relative;
   font-weight: 400;
 
@@ -121,8 +119,8 @@
   height: 2px;
   background-color: $button-background;
   position: absolute;
-  top: 12px;
-  left: 286px;
+  top: 9px;
+  left: 267px;
 
   @media (min-width: $tablet-width) {
     height: 2px;
@@ -138,7 +136,7 @@
   height: 1px;
   background-color: #e6e6e6;
   position: absolute;
-  top: 50px;
+  top: 58px;
   left: 0;
 
   @media (min-width: $tablet-width) {
@@ -171,7 +169,7 @@
   text-transform: uppercase;
   color: #222222;
   margin: 0;
-  margin-bottom: 13px;
+  margin-bottom: 14px;
   font-family: $oswald;
 
   @media (min-width: $tablet-width) {
@@ -220,7 +218,9 @@
 .additional-products__button {
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
+  font-size: 16px;
+  line-height: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;

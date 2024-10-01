@@ -1,6 +1,6 @@
 .catalog {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 26px;
@@ -251,6 +251,8 @@
 }
 
 .catalog__product-card--addition {
+  padding-top: 26px;
+
   @media (min-width: $tablet-width) {
     background-color: #ffffff;
     border: 2px solid #f2f2f2;
