@@ -42,7 +42,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0 30px;
     width: 100%;
     display: grid;
     grid-template-columns: 406px 406px 406px;
@@ -94,7 +93,6 @@
 
   @media (min-width: $tablet-width) {
     gap: 28px;
-    width: 168px;
   }
 }
 
@@ -102,7 +100,7 @@
   fill: #666666;
   color: $base-color-text;
   text-decoration: none;
-  display: block;
+  display: inline-block;
 }
 
 .main-footer__logo-academy-svg:hover {
