@@ -42,6 +42,11 @@
   @media (min-width: $desktop-width) {
     left: 80px;
   }
+
+  @media (min-width: $desktop-width) {
+    left: 84px;
+    top: 58px;
+  }
 }
 
 .present__text {
@@ -65,8 +70,9 @@
   @media (min-width: $desktop-width) {
     margin: 0;
     padding-top: 185px;
-    padding-left: 45px;
+    padding-left: 40px;
     width: auto;
-    padding-right: 45px;
+    padding-right: 39px;
+    text-align: center;
   }
 }

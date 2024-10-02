@@ -112,6 +112,12 @@
     margin-bottom: 80px;
     padding-left: 39px;
   }
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+    line-height: 40px;
+    padding-left: 0;
+  }
 }
 
 .additional-products__title::before {
@@ -128,6 +134,11 @@
     background-color: $button-background;
     top: 14px;
     left: 383px;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 18px;
+    left: 416px;
   }
 }
 
@@ -148,7 +159,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    left: -1250px;
+    left: -1260px;
+    top: 18px;
   }
 }
 

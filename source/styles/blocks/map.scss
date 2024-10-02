@@ -34,7 +34,7 @@
     background-color: #ffffff;
     width: 565px;
     min-height: 199px;
-    top: 76px;
+    top: 96px;
     left: 111px;
   }
 }
@@ -96,5 +96,11 @@
 .map__inframe {
   @media (min-width: $tablet-width) {
     height: 400px;
+  }
+}
+
+.map__container--index {
+  @media (min-width: $desktop-width) {
+    top: 77px;
   }
 }
