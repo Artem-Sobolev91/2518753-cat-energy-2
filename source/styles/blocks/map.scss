@@ -80,7 +80,7 @@
   margin: 0;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -92,8 +92,10 @@
   margin: 0;
 }
 
+.map__iframe {
+  width: 100%;
+  height: 362px;
 
-.map__inframe {
   @media (min-width: $tablet-width) {
     height: 400px;
   }
