@@ -100,7 +100,7 @@
   margin: 0;
   border: 1px solid #cdcdcd;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 13px 20px;
   padding-bottom: 0;
 
   @media (min-width: $tablet-width) {
@@ -115,7 +115,7 @@
   color: #444444;
   font-size: 12px;
   line-height: 12px;
-  margin-bottom: -11px;
+  margin-bottom: -15px;
   background-color: #eaeaea;
   text-align: center;
   padding: 0 9px;
@@ -136,7 +136,7 @@
 }
 
 .examples__result {
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 14px;
