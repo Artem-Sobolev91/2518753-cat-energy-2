@@ -83,15 +83,15 @@
   }
 }
 
-.main-header__cross--icon {
+.main-header__icon--cross {
   display: none;
 }
 
-.main-header__burger--active .main-header__burger--icon {
+.main-header__burger--active .main-header__icon--burger {
   display: none;
 }
 
-.main-header__burger--active .main-header__cross--icon {
+.main-header__burger--active .main-header__icon--cross {
   display: block;
 }
 
