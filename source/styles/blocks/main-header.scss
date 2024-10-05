@@ -87,6 +87,10 @@
   display: none;
 }
 
+.main-header__icon--burger {
+  display: block;
+}
+
 .main-header__burger--active .main-header__icon--burger {
   display: none;
 }
