@@ -17,5 +17,3 @@ navBurger.addEventListener('click', () => {
     navMain.classList.remove('main-nav--opened');
   }
 });
-
-
