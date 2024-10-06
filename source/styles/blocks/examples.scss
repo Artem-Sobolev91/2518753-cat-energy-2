@@ -8,7 +8,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    // тест переполнение, спросить про градиент
     background: linear-gradient(0deg, #eaeaea calc(100% - 134px), #ffffff 20%);
   }
 }
@@ -177,7 +176,6 @@
   justify-content: space-between;
   margin-bottom: 34px;
 
-
   @media (min-width: $tablet-width) {
     gap: 43px;
   }
@@ -202,7 +200,6 @@
     line-height: 20px;
   }
 }
-
 
 .examples__expenses {
   font-family: $oswald;
